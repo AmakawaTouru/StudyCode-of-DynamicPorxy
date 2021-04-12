@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zhl</groupId>
-    <artifactId>JdkProxyDemo</artifactId>
+    <groupId>org.zhl</groupId>
+    <artifactId>CGLibProxyDemo</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
