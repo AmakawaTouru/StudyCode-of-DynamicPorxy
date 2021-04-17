@@ -11,6 +11,14 @@
     <modules>
         <module>JdkProxyDemo</module>
         <module>CGLibProxyDemo</module>
+        <module>MethodBeforeAdviceDemo</module>
+        <module>AfterReturningAdvice</module>
+        <module>MethodInterceptor</module>
+        <module>ThrowsAdviceDemo</module>
+        <module>IntroductionInterceptorDemo</module>
+        <module>StaticMethodMatcherPointcurAdvisorDemo</module>
+        <module>RegexpMethodPointcutAdvisorDemo</module>
+        <module>DefaultAdvisorAutoProxyCreatorDemo</module>
     </modules>
 
     <properties>
@@ -30,6 +38,12 @@
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>3.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.10.RELEASE</version>
         </dependency>
 
     </dependencies>
